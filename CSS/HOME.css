@@ -1,5 +1,5 @@
 #container{
-    background-image: url(assets/home/background-home-desktop.jpg) !important;
+    background-image: url('assets/home/background-home-desktop.jpg') !important;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -51,7 +51,7 @@ h4, h1, p{
 }
 @media (max-width: 400px){
     #container{
-        background-image: url(/assets/home/background-home-mobile.jpg) !important;
+        background-image: url('/assets/home/background-home-mobile.jpg') !important;
     }
     #content{
         margin: 0 30px;
