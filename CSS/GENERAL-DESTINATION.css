@@ -1,5 +1,5 @@
 #container{
-    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -70,6 +70,14 @@
     font-weight: 100;
 }
 @media (max-width: 400px){
+    #container{
+        background-image: url(../assets/destination/background-destination-mobile.jpg);
+    }
+    #content{
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     #destino{
         width: 100%;
     }
